@@ -25,7 +25,7 @@ jobs:
         id: changes
         # Set outputs using the command.
         run: |
-          echo "::set-output name=changes::$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} -- "olympus_mons/gentxs" | xargs)"
+          echo "::set-output name=changes::$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} -- "./gentxs" | xargs)"
       - name: Check if added GenTx and if valid
         if: ${{ steps.changes.outputs.changes }}
         run: |
