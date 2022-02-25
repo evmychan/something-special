@@ -94,6 +94,16 @@
                 {
                     "@type": "/ethermint.types.v1.EthAccount",
                     "base_account": {
+                        "address": "evmos1u9n4qextqsgjr3k8m7v8rwgfszlmv0t0ash2ts",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
                         "address": "evmos1adl6xd3klu689caymhn6hhakpfues5e3zam3sx",
                         "pub_key": null,
                         "account_number": "0",
@@ -1084,6 +1094,16 @@
                 {
                     "@type": "/ethermint.types.v1.EthAccount",
                     "base_account": {
+                        "address": "ERROR: Invalid address format.",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
                         "address": "evmos125fkz3mq6qxxpkmphdl3ep92t0d3y969t4yhkl",
                         "pub_key": null,
                         "account_number": "0",
@@ -1303,6 +1323,15 @@
                         {
                             "denom": "aevmos",
                             "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1u9n4qextqsgjr3k8m7v8rwgfszlmv0t0ash2ts",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "10000000000000000000"
                         }
                     ]
                 },
@@ -2198,6 +2227,15 @@
                     ]
                 },
                 {
+                    "address": "ERROR: Invalid address format.",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "3.571428571e+18"
+                        }
+                    ]
+                },
+                {
                     "address": "evmos125fkz3mq6qxxpkmphdl3ep92t0d3y969t4yhkl",
                     "coins": [
                         {
@@ -2345,7 +2383,7 @@
             "supply": [
                 {
                     "denom": "aevmos",
-                    "amount": "9.767857140870004e+20"
+                    "amount": "9,867857140870004e+20"
                 }
             ],
             "denom_metadata": []
