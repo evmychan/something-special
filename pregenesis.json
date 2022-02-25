@@ -1,0 +1,2612 @@
+{
+    "genesis_time": "2022-02-28T16:00:00Z",
+    "chain_id": "evmos_9001-1",
+    "initial_height": "1",
+    "consensus_params": {
+        "block": {
+            "max_bytes": "22020096",
+            "max_gas": "40000000",
+            "time_iota_ms": "1000"
+        },
+        "evidence": {
+            "max_age_num_blocks": "100000",
+            "max_age_duration": "172800000000000",
+            "max_bytes": "1048576"
+        },
+        "validator": {
+            "pub_key_types": [
+                "ed25519"
+            ]
+        },
+        "version": {}
+    },
+    "app_hash": "",
+    "app_state": {
+        "auth": {
+            "params": {
+                "max_memo_characters": "256",
+                "tx_sig_limit": "7",
+                "tx_size_cost_per_byte": "10",
+                "sig_verify_cost_ed25519": "590",
+                "sig_verify_cost_secp256k1": "1000"
+            },
+            "accounts": [
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1gjtvly9lel6zskvwtvlg5vhwpu9c9wawe9reca",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos15ksyw7t5t9e7w9n3d2jqqmv7y334mfrhyzrrfy",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1jkn3w5rm7lp0pn07qxc4d3rxdxre7h23t9t6dc",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1u77wfdmv0gj30z0y3wcmdja026vtwjlcaggtzw",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1y56smujn0dr4k8nm9zc844jx2v7gzxeqhkrvcs",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1lldjhjnn32e8vek7cxe9g05nf8j74y0xa6dt3p",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1adl6xd3klu689caymhn6hhakpfues5e3zam3sx",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos146mfv59nypacvs5l9h0takrcv8jtlk90rdqcfu",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1lyqj60nv007tvsuvyhuu08gldlfzwq28wqfnnm",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos19ukysy0y8vftenua47390kmg82t8expldca9fe",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1zqkrqsvrn4hskeywd56gx2dcy50mnyp6rw3m89",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1gp3smgnl92elvknutdz4jvc0yfjfhz9gafhh9s",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1v3q2kuups8gzjk2930haevwn08gl9vflq52ty4",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1vw76ju5rwt9us7kz8tg42t6yfmq2jftyqj39a8",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos18fdznufds7xcgthx00jmpvf6pplt7g4nnehyu2",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1aep37tvd5yh4ydeya2a88g2tkjz6f2lcw8av62",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1gk9cqangsfrd8dd92fyplmpqhft0zk0fs6hmnt",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos16ywlfq3ansuh70tjtenazpdwcn6rg2799ujacu",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1lwfuc2lc27mk8yys2zcd0qttcwmnd6x79cly6f",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1jd6w3lm4y22680fkwvykx5h8tjzftd9zz4zgpx",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1fhfkklmv764r3u6kqkeflmddr6rlzhf4wtsdc8",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1mtwvpdd57gpkyejd566s24afr9zm5ryq2xp3d0",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1ur0zjltn3qs5xzx4rn8ekr828f4tglyh36qgwn",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1vvjw4652wfnkn596va77ltewe02mkf7qju3rsz",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1a36r4jvcprvewxnr2qhfs0h4spec35232798lk",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1f08fffp8zz42jj0f6wh3gyu7he4hf6zza55rx0",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1zmdezgf0mcs08tj24xskdgkzhnknzdfmt6uraa",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos195v27mgytr20804sfpmwg2n6x57u28vwaztzqq",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1wzx5g45x7reftxzl3ss0lgk0wh08egmywxqvke",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos17ypwsl80ytz0q34g9ycswfl9ulvndu9t26q4ms",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1rrjls4ujjnxw7ta3rnge5j7nfyl936uyx4frjl",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1rhddecqpwfjdkwmu6lmfzekh936kcu6wt73z8q",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1426c3rs6fkt8wt4p8w8nl48nn7zpvd0xtzafpc",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1qnezlwhpjhhev6wmvul8w93f66mdetdafh862c",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1f45kvvy80gzcfccgvmg5gjzelwxeuk2k85ff7x",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1x5y65hgngh77sxta6s2vpjnfjep3ltllfex6kd",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1ak9t7kwk44azu6cefqdydqmy3hen28nvquaurj",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1fqeezech7r9mr20aggde4a36qf4zy57rew5lvx",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1rv94jqhlhx6makfwl6qs390e4shg32m6r5zkre",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1vrruadnv4glvjze923m9rjaq96fyzks65x5qql",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1s95dwnw7vuks688tnzuue0hl6gsczmzjj83yyl",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos107mlv7f87ckvg6rg7mhrhlqylv35pq6kpfxtch",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos19fxanpnjlggzuur3m3x0puk5ez7j9lrtxhf73n",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1tcty2k97cdv5sc6xcdf2atrrxq0zg7vvl2xq67",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1s95dwnw7vuks688tnzuue0hl6gsczmzjj83yyl",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1s5sckwx0h02xw7qkdyu6auj8vq0a5gcr8j2hh9",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1az0eeqw5222en0enxz9ect3s8xy4kayz7khcn2",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1vdvflras2n3h7fjhe95h86wsy0z2nlskxa8nq6",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1pj3c7q7tj888h4ms9uq2qql2hf84pndxuvr0cp",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1cxpkev44hfqx2pcyx0zl80f9skfdcym08umxzx",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1r30pcna6kmh4njemuq7vpv3p2mnmz36atekfe3",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1ufg2a3vc4vmsmxtjmckjzltqvz83ste924v28f",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1kg99k8wd67r0ffxwavgnxup7yk46rvttpd32y9",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1jxv0u20scum4trha72c7ltfgfqef6nscst9pw8",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1gj8uu6pxcncdtav707a86v3sqva2svn4e7f2t4",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1vhuyfr9l7ytd0w9mtdx2033qrc0s6vjj2q7wn8",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1p5k54qk9jdamvw4r756g7dxsjarf6p0luenxxg",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1grgelyng2v6v3t8z87wu3sxgt9m5s03xw3wh59",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1f35jtt5m68zlxkpxn75403vv82cchahqp8lnau",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1h62qm8qcctvcdd8t3jwm9jcc9cwleqjg77uwze",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos14kkdq6kgkfefkqq79vzaejkrthw0anww25lq5y",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos14zatq4jagqtm9ejgvglnv0t364d88u80yjy3mf",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1xvrdg707g8kug8k9zlrpqamfukzt5qnc2ja6ll",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1g42a23klcwhdmmkmq43d8awe6xdtsuk673jfdl",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1lr7tdf32qchnw6dmwrv6n88g48epkhchdm56ya",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1gmfzlmdv55xftch7y20lyk8pruxcm42lvgd003",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1rarnkfmqc5kmrfw88edeuvd4mcj8pdmh8m4ava",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1r0q7zg2kxehn5aw9l3dntgtt5mh7j7276sxral",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1p5650lhupzf9wllenm5nwpl4mycj9p4d4h8wf8",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1res70qjq47e2acmgfc909n373y3r2my4kgdk3g",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1z8gn6dmcjv8uph2snz2qcq9jflqdkcy2djzxql",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1can8lfdushdmp8z9zm82dmpt6gz3r2rstdlhfn",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1kw03prf96w5rrj53pvhdnmsnr469dn9gd4ls04",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1m2h0neyc2zjep2072cqhakmt5qsxwvppajc07v",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1vw7k3z99swlv7svjmnrrqvu6zdmatqhv0jdw7p",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1y96y6awujpq8sz4vd2rvejxs25mhrs6fd9q0h3",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1jxruqmfurgxrem4phvaqxkvprxa6fr0n4x7mx6",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1sq9ggymzx02vcp7kf6yyar83scfm4r22aqn2lv",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1kf44guytqa49v0d5wr6933xwap7kdkdcrlg4tw",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1ewy85dtectk68z6cnpt6vmkgsqwkwttgx0kzr2",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos10pcga9su5me3dp5g4jln49uxjq7c9s2ugwt4rp",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1vs0vvzpudrattan5pqs9caa38uavj467gdyyqw",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1g9rcsa8sr6utp073pdtvqg5xvynv00vs6dcyfp",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos15fezptqfn3rmxtl4006ze9plealy4w9xq8jtj3",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1rq0r53s3wg4854n05tg0hrw5u3jaqlw42ldlq4",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos15zgjlh6aqrc36nuvwwnpvmgq8vjqkvsyq4nr4p",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1j6zuz54sum48ylpzjqt4jugjmr4lw6sr3rrweg",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos13h9qxch4r8ep2x8ynwlmcvcl6h902zg553drka",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1r4egnngxqudu7nsxa6uygcygn36j30v7rlsvk8",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1aw4gm8z8x5wcuk72xxvxgt0ukljul4wettr47k",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1y48avyjalxpnd3kt9pneralmp4fj8j0434yslw",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos144p4mlj9ju8rencusw2835cjmu9yf2v8h4h2k6",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1zqf4s6t0r4elu07krs5kquf6meme2qm5ced835",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1ny0dzf3wkutdfgxkk6us0xwal7gpuj4h7hh7tv",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1fn9ldnvd5mt2fcn5prq2lhvcga6tmtlh3xrh8v",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos102jhnxtf9fuaclxwh2r6cg84ml8yzf2u7qz0lr",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1tjm6jya5wh65ha55c6279glcsa3mcs9sw7h520",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1862ed57tg9vrjm34r03n0l427ufzj3z87407qr",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1qx7u07f2tv5j8677r3ttt97prkc2dgcyvyettg",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1dk4ste222kp256ky00553nexna0rh38htynnm9",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1326mc8893qqaac394x7j42hfr00unvff93dplk",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1el42w8xtf33ae6mv2h9g2xug6mll4vx7txh4wj",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1q3aejvmwj9dxturgk00jv7hkwxld7ny7hm9mz6",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1qq95x6dhrdnrfunlth5uh24tkrfphzl94dzp87",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1f86x5htxmxcwnz0nwyszzww9wh3hjkey6qezqf",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "ERROR: Invalid address format.",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos125fkz3mq6qxxpkmphdl3ep92t0d3y969t4yhkl",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos18lgy886ruwkuaefm2c0sn0gt9kgnj0deucy2q3",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos106y6thy7gphzrsqq443hl69vfdvntgz23pcue4",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1ressdg4tjwqqje0jkvyqmrj908mextrj788xgr",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos162fmljm289vplvwwqeth6h3srwt6pxqv67w6ce",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1zk0sx2e677293wfmhxngpexu50vps3sdr2keyh",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1tdss4m3x7jy9mlepm2dwy8820l7uv6m2pg4jx6",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1k35wzk4slyz2ly9wycjqjs5ed7mwjl2yn4lcvl",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1h5zzeup9a3qznt3vjfs6lks2duq7te43wjfl8x",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1k35wzk4slyz2ly9wycjqjs5ed7mwjl2yn4lcvl",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1tuup69wz94u62g9tjuphj3vuvqyh3t00he60ww",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1sw4hs8x4yrwguhfst82t8lr0pv77x5hjz0v5z5",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1qp49y6vh8vvv5yf8ule8fwx6sss82nczutyvjz",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1wjcfz5mhkl2e48w4euqz0724933haqcprlvmh7",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos16cl72dyyaa8n4mx247z49sj26m099jpsqyjylj",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1d4sctjlcqjrfkxpp0a5hwsntfhzy7mz260wa4l",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                }
+            ]
+        },
+        "authz": {
+            "authorization": []
+        },
+        "bank": {
+            "params": {
+                "send_enabled": [],
+                "default_send_enabled": true
+            },
+            "balances": [
+                {
+                    "address": "evmos1gjtvly9lel6zskvwtvlg5vhwpu9c9wawe9reca",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos15ksyw7t5t9e7w9n3d2jqqmv7y334mfrhyzrrfy",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1jkn3w5rm7lp0pn07qxc4d3rxdxre7h23t9t6dc",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1u77wfdmv0gj30z0y3wcmdja026vtwjlcaggtzw",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1y56smujn0dr4k8nm9zc844jx2v7gzxeqhkrvcs",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1lldjhjnn32e8vek7cxe9g05nf8j74y0xa6dt3p",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1adl6xd3klu689caymhn6hhakpfues5e3zam3sx",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos146mfv59nypacvs5l9h0takrcv8jtlk90rdqcfu",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1lyqj60nv007tvsuvyhuu08gldlfzwq28wqfnnm",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos19ukysy0y8vftenua47390kmg82t8expldca9fe",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1zqkrqsvrn4hskeywd56gx2dcy50mnyp6rw3m89",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1gp3smgnl92elvknutdz4jvc0yfjfhz9gafhh9s",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1v3q2kuups8gzjk2930haevwn08gl9vflq52ty4",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1vw76ju5rwt9us7kz8tg42t6yfmq2jftyqj39a8",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos18fdznufds7xcgthx00jmpvf6pplt7g4nnehyu2",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1aep37tvd5yh4ydeya2a88g2tkjz6f2lcw8av62",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1gk9cqangsfrd8dd92fyplmpqhft0zk0fs6hmnt",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos16ywlfq3ansuh70tjtenazpdwcn6rg2799ujacu",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1lwfuc2lc27mk8yys2zcd0qttcwmnd6x79cly6f",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1jd6w3lm4y22680fkwvykx5h8tjzftd9zz4zgpx",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1fhfkklmv764r3u6kqkeflmddr6rlzhf4wtsdc8",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1mtwvpdd57gpkyejd566s24afr9zm5ryq2xp3d0",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1ur0zjltn3qs5xzx4rn8ekr828f4tglyh36qgwn",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1vvjw4652wfnkn596va77ltewe02mkf7qju3rsz",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1a36r4jvcprvewxnr2qhfs0h4spec35232798lk",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1f08fffp8zz42jj0f6wh3gyu7he4hf6zza55rx0",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1zmdezgf0mcs08tj24xskdgkzhnknzdfmt6uraa",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos195v27mgytr20804sfpmwg2n6x57u28vwaztzqq",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1wzx5g45x7reftxzl3ss0lgk0wh08egmywxqvke",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos17ypwsl80ytz0q34g9ycswfl9ulvndu9t26q4ms",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1rrjls4ujjnxw7ta3rnge5j7nfyl936uyx4frjl",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1rhddecqpwfjdkwmu6lmfzekh936kcu6wt73z8q",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1426c3rs6fkt8wt4p8w8nl48nn7zpvd0xtzafpc",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1qnezlwhpjhhev6wmvul8w93f66mdetdafh862c",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1f45kvvy80gzcfccgvmg5gjzelwxeuk2k85ff7x",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "7.142857142999999e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1x5y65hgngh77sxta6s2vpjnfjep3ltllfex6kd",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "7.142857142999999e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1ak9t7kwk44azu6cefqdydqmy3hen28nvquaurj",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "7.142857142999999e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1fqeezech7r9mr20aggde4a36qf4zy57rew5lvx",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "7.142857142999999e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1rv94jqhlhx6makfwl6qs390e4shg32m6r5zkre",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "7.142857142999999e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1vrruadnv4glvjze923m9rjaq96fyzks65x5qql",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "7.142857142999999e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1s95dwnw7vuks688tnzuue0hl6gsczmzjj83yyl",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "7.142857142999999e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos107mlv7f87ckvg6rg7mhrhlqylv35pq6kpfxtch",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "7.142857142999999e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos19fxanpnjlggzuur3m3x0puk5ez7j9lrtxhf73n",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "7.142857142999999e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1tcty2k97cdv5sc6xcdf2atrrxq0zg7vvl2xq67",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "3.571428571e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1s95dwnw7vuks688tnzuue0hl6gsczmzjj83yyl",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.607142857e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1s5sckwx0h02xw7qkdyu6auj8vq0a5gcr8j2hh9",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.607142857e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1az0eeqw5222en0enxz9ect3s8xy4kayz7khcn2",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.607142857e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1vdvflras2n3h7fjhe95h86wsy0z2nlskxa8nq6",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.607142857e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1pj3c7q7tj888h4ms9uq2qql2hf84pndxuvr0cp",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.607142857e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1cxpkev44hfqx2pcyx0zl80f9skfdcym08umxzx",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.607142857e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1r30pcna6kmh4njemuq7vpv3p2mnmz36atekfe3",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.607142857e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1ufg2a3vc4vmsmxtjmckjzltqvz83ste924v28f",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1kg99k8wd67r0ffxwavgnxup7yk46rvttpd32y9",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1jxv0u20scum4trha72c7ltfgfqef6nscst9pw8",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1gj8uu6pxcncdtav707a86v3sqva2svn4e7f2t4",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1vhuyfr9l7ytd0w9mtdx2033qrc0s6vjj2q7wn8",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1p5k54qk9jdamvw4r756g7dxsjarf6p0luenxxg",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1grgelyng2v6v3t8z87wu3sxgt9m5s03xw3wh59",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1f35jtt5m68zlxkpxn75403vv82cchahqp8lnau",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1h62qm8qcctvcdd8t3jwm9jcc9cwleqjg77uwze",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos14kkdq6kgkfefkqq79vzaejkrthw0anww25lq5y",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos14zatq4jagqtm9ejgvglnv0t364d88u80yjy3mf",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1xvrdg707g8kug8k9zlrpqamfukzt5qnc2ja6ll",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1g42a23klcwhdmmkmq43d8awe6xdtsuk673jfdl",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1lr7tdf32qchnw6dmwrv6n88g48epkhchdm56ya",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1gmfzlmdv55xftch7y20lyk8pruxcm42lvgd003",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1rarnkfmqc5kmrfw88edeuvd4mcj8pdmh8m4ava",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1r0q7zg2kxehn5aw9l3dntgtt5mh7j7276sxral",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1p5650lhupzf9wllenm5nwpl4mycj9p4d4h8wf8",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1res70qjq47e2acmgfc909n373y3r2my4kgdk3g",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1z8gn6dmcjv8uph2snz2qcq9jflqdkcy2djzxql",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1can8lfdushdmp8z9zm82dmpt6gz3r2rstdlhfn",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1kw03prf96w5rrj53pvhdnmsnr469dn9gd4ls04",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1m2h0neyc2zjep2072cqhakmt5qsxwvppajc07v",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1vw7k3z99swlv7svjmnrrqvu6zdmatqhv0jdw7p",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1y96y6awujpq8sz4vd2rvejxs25mhrs6fd9q0h3",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1jxruqmfurgxrem4phvaqxkvprxa6fr0n4x7mx6",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1sq9ggymzx02vcp7kf6yyar83scfm4r22aqn2lv",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1kf44guytqa49v0d5wr6933xwap7kdkdcrlg4tw",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1ewy85dtectk68z6cnpt6vmkgsqwkwttgx0kzr2",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos10pcga9su5me3dp5g4jln49uxjq7c9s2ugwt4rp",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1vs0vvzpudrattan5pqs9caa38uavj467gdyyqw",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1g9rcsa8sr6utp073pdtvqg5xvynv00vs6dcyfp",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos15fezptqfn3rmxtl4006ze9plealy4w9xq8jtj3",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1rq0r53s3wg4854n05tg0hrw5u3jaqlw42ldlq4",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos15zgjlh6aqrc36nuvwwnpvmgq8vjqkvsyq4nr4p",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1j6zuz54sum48ylpzjqt4jugjmr4lw6sr3rrweg",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos13h9qxch4r8ep2x8ynwlmcvcl6h902zg553drka",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1r4egnngxqudu7nsxa6uygcygn36j30v7rlsvk8",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1aw4gm8z8x5wcuk72xxvxgt0ukljul4wettr47k",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1y48avyjalxpnd3kt9pneralmp4fj8j0434yslw",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos144p4mlj9ju8rencusw2835cjmu9yf2v8h4h2k6",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1zqf4s6t0r4elu07krs5kquf6meme2qm5ced835",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1ny0dzf3wkutdfgxkk6us0xwal7gpuj4h7hh7tv",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1fn9ldnvd5mt2fcn5prq2lhvcga6tmtlh3xrh8v",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos102jhnxtf9fuaclxwh2r6cg84ml8yzf2u7qz0lr",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1tjm6jya5wh65ha55c6279glcsa3mcs9sw7h520",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1862ed57tg9vrjm34r03n0l427ufzj3z87407qr",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1qx7u07f2tv5j8677r3ttt97prkc2dgcyvyettg",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1dk4ste222kp256ky00553nexna0rh38htynnm9",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1326mc8893qqaac394x7j42hfr00unvff93dplk",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "3.571428571e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1el42w8xtf33ae6mv2h9g2xug6mll4vx7txh4wj",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "3.571428571e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1q3aejvmwj9dxturgk00jv7hkwxld7ny7hm9mz6",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "3.571428571e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1qq95x6dhrdnrfunlth5uh24tkrfphzl94dzp87",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "3.571428571e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1f86x5htxmxcwnz0nwyszzww9wh3hjkey6qezqf",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "3.571428571e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "ERROR: Invalid address format.",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "3.571428571e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos125fkz3mq6qxxpkmphdl3ep92t0d3y969t4yhkl",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.785714286e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos18lgy886ruwkuaefm2c0sn0gt9kgnj0deucy2q3",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.785714286e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos106y6thy7gphzrsqq443hl69vfdvntgz23pcue4",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.785714286e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1ressdg4tjwqqje0jkvyqmrj908mextrj788xgr",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.785714286e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos162fmljm289vplvwwqeth6h3srwt6pxqv67w6ce",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.785714286e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1zk0sx2e677293wfmhxngpexu50vps3sdr2keyh",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.607142857e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1tdss4m3x7jy9mlepm2dwy8820l7uv6m2pg4jx6",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.607142857e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1k35wzk4slyz2ly9wycjqjs5ed7mwjl2yn4lcvl",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.607142857e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1h5zzeup9a3qznt3vjfs6lks2duq7te43wjfl8x",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.607142857e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1k35wzk4slyz2ly9wycjqjs5ed7mwjl2yn4lcvl",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "1.071428571e+19"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1tuup69wz94u62g9tjuphj3vuvqyh3t00he60ww",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1sw4hs8x4yrwguhfst82t8lr0pv77x5hjz0v5z5",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1qp49y6vh8vvv5yf8ule8fwx6sss82nczutyvjz",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1wjcfz5mhkl2e48w4euqz0724933haqcprlvmh7",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos16cl72dyyaa8n4mx247z49sj26m099jpsqyjylj",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1d4sctjlcqjrfkxpp0a5hwsntfhzy7mz260wa4l",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5.357142857000001e+18"
+                        }
+                    ]
+                }
+            ],
+            "supply": [
+                {
+                    "denom": "aevmos",
+                    "amount": "9.767857140870004e+20"
+                }
+            ],
+            "denom_metadata": []
+        },
+        "capability": {
+            "index": "1",
+            "owners": []
+        },
+        "claims": {
+            "params": {
+                "enable_claims": true,
+                "airdrop_start_time": "2022-03-01T16:00:00Z",
+                "duration_until_decay": "2592000s",
+                "duration_of_decay": "1814400s",
+                "claims_denom": "aevmos"
+            },
+            "claims_records": []
+        },
+        "crisis": {
+            "constant_fee": {
+                "denom": "aevmos",
+                "amount": "5000000000000000000"
+            }
+        },
+        "distribution": {
+            "params": {
+                "community_tax": "0.020000000000000000",
+                "base_proposer_reward": "0.010000000000000000",
+                "bonus_proposer_reward": "0.040000000000000000",
+                "withdraw_addr_enabled": true
+            },
+            "fee_pool": {
+                "community_pool": []
+            },
+            "delegator_withdraw_infos": [],
+            "previous_proposer": "",
+            "outstanding_rewards": [],
+            "validator_accumulated_commissions": [],
+            "validator_historical_rewards": [],
+            "validator_current_rewards": [],
+            "delegator_starting_infos": [],
+            "validator_slash_events": []
+        },
+        "epochs": {
+            "epochs": [
+                {
+                    "identifier": "week",
+                    "start_time": "0001-01-01T00:00:00Z",
+                    "duration": "604800s",
+                    "current_epoch": "0",
+                    "current_epoch_start_time": "0001-01-01T00:00:00Z",
+                    "epoch_counting_started": false,
+                    "current_epoch_start_height": "0"
+                },
+                {
+                    "identifier": "day",
+                    "start_time": "0001-01-01T00:00:00Z",
+                    "duration": "86400s",
+                    "current_epoch": "0",
+                    "current_epoch_start_time": "0001-01-01T00:00:00Z",
+                    "epoch_counting_started": false,
+                    "current_epoch_start_height": "0"
+                }
+            ]
+        },
+        "erc20": {
+            "params": {
+                "enable_erc20": true,
+                "enable_evm_hook": true
+            },
+            "token_pairs": []
+        },
+        "evidence": {
+            "evidence": []
+        },
+        "evm": {
+            "accounts": [],
+            "params": {
+                "evm_denom": "aevmos",
+                "enable_create": true,
+                "enable_call": true,
+                "extra_eips": [],
+                "chain_config": {
+                    "homestead_block": "0",
+                    "dao_fork_block": "0",
+                    "dao_fork_support": true,
+                    "eip150_block": "0",
+                    "eip150_hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+                    "eip155_block": "0",
+                    "eip158_block": "0",
+                    "byzantium_block": "0",
+                    "constantinople_block": "0",
+                    "petersburg_block": "0",
+                    "istanbul_block": "0",
+                    "muir_glacier_block": "0",
+                    "berlin_block": "0",
+                    "london_block": "0",
+                    "arrow_glacier_block": "0",
+                    "merge_fork_block": "0"
+                }
+            }
+        },
+        "feegrant": {
+            "allowances": []
+        },
+        "feemarket": {
+            "params": {
+                "no_base_fee": false,
+                "base_fee_change_denominator": 8,
+                "elasticity_multiplier": 2,
+                "initial_base_fee": "1000000000",
+                "enable_height": "0"
+            },
+            "base_fee": "1000000000",
+            "block_gas": "0"
+        },
+        "genutil": {
+            "gen_txs": []
+        },
+        "gov": {
+            "starting_proposal_id": "1",
+            "deposits": [],
+            "votes": [],
+            "proposals": [],
+            "deposit_params": {
+                "min_deposit": [
+                    {
+                        "denom": "aevmos",
+                        "amount": "10000000000000000000"
+                    }
+                ],
+                "max_deposit_period": "43200s"
+            },
+            "voting_params": {
+                "voting_period": "172800s"
+            },
+            "tally_params": {
+                "quorum": "0.334000000000000000",
+                "threshold": "0.500000000000000000",
+                "veto_threshold": "0.334000000000000000"
+            }
+        },
+        "ibc": {
+            "client_genesis": {
+                "clients": [],
+                "clients_consensus": [],
+                "clients_metadata": [],
+                "params": {
+                    "allowed_clients": [
+                        "06-solomachine",
+                        "07-tendermint"
+                    ]
+                },
+                "create_localhost": false,
+                "next_client_sequence": "0"
+            },
+            "connection_genesis": {
+                "connections": [],
+                "client_connection_paths": [],
+                "next_connection_sequence": "0",
+                "params": {
+                    "max_expected_time_per_block": "30000000000"
+                }
+            },
+            "channel_genesis": {
+                "channels": [],
+                "acknowledgements": [],
+                "commitments": [],
+                "receipts": [],
+                "send_sequences": [],
+                "recv_sequences": [],
+                "ack_sequences": [],
+                "next_channel_sequence": "0"
+            }
+        },
+        "incentives": {
+            "params": {
+                "enable_incentives": true,
+                "allocation_limit": "0.050000000000000000",
+                "incentives_epoch_identifier": "week",
+                "reward_scaler": "1.200000000000000000"
+            },
+            "incentives": [],
+            "gas_meters": []
+        },
+        "inflation": {
+            "params": {
+                "mint_denom": "aevmos",
+                "exponential_calculation": {
+                    "a": "300000000.000000000000000000",
+                    "r": "0.500000000000000000",
+                    "c": "9375000.000000000000000000",
+                    "bonding_target": "0.660000000000000000",
+                    "max_variance": "0.000000000000000000"
+                },
+                "inflation_distribution": {
+                    "staking_rewards": "0.533333334000000000",
+                    "usage_incentives": "0.333333333000000000",
+                    "community_pool": "0.133333333000000000"
+                }
+            },
+            "period": "0",
+            "epoch_identifier": "day",
+            "epochs_per_period": "365"
+        },
+        "params": null,
+        "slashing": {
+            "params": {
+                "signed_blocks_window": "30000",
+                "min_signed_per_window": "0.050000000000000000",
+                "downtime_jail_duration": "60s",
+                "slash_fraction_double_sign": "0.050000000000000000",
+                "slash_fraction_downtime": "0.000000000000000000"
+            },
+            "signing_infos": [],
+            "missed_blocks": []
+        },
+        "staking": {
+            "params": {
+                "unbonding_time": "1814400s",
+                "max_validators": 150,
+                "max_entries": 7,
+                "historical_entries": 10000,
+                "bond_denom": "aevmos"
+            },
+            "last_total_power": "0",
+            "last_validator_powers": [],
+            "validators": [],
+            "delegations": [],
+            "unbonding_delegations": [],
+            "redelegations": [],
+            "exported": false
+        },
+        "transfer": {
+            "port_id": "transfer",
+            "denom_traces": [],
+            "params": {
+                "send_enabled": true,
+                "receive_enabled": true
+            }
+        },
+        "upgrade": {},
+        "vesting": {}
+    }
+}
