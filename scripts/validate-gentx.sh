@@ -32,11 +32,11 @@ else
     amountquery=$(jq -r '.body.messages[0].value.amount' "$GENTX_FILE")
 
 function amount {
-   AMOUNT="$amountquery" MAXAMOUNT="$MAXBOND" python - <<END
-   import os
-   amount = int(os.environ['AMOUNT'])
-   maxamount = int(os.environ['MAXAMOUNT'])
-   print( amount > maxamount)
+AMOUNT="$amountquery" MAXAMOUNT="$MAXBOND" python - <<END
+import os
+amount = int(os.environ['AMOUNT'])
+maxamount = int(os.environ['MAXAMOUNT'])
+print( amount > maxamount )
 END
 }
 
