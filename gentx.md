@@ -39,8 +39,9 @@ These instructions are written targeting an Ubuntu 20.04 system. Relevant change
    Verify that everything is OK. If you get something *like* the following, you've successfully installed Evmos on your system.
 
    ```sh
-   name: evmos
+   evmosd version --long
 
+   name: evmos
    server_name: evmosd
    version: 1.0.0-beta1
    commit: 2c0b38566058df48ea5e7349e0b202bf743be90f
