@@ -73,6 +73,12 @@ have to manually pass in the chain-id flag for every CLI command.
 evmosd config chain-id evmos_9001-1
 ```
 
+---
+
+# IGNORE EVERYTHING BELOW THIS LINE FOR NOW
+# COME BACK AFTER THE GENESIS FILE IS READY
+
+
 ### Install and setup Cosmovisor
 
 We highly recommend validators use cosmovisor to run their nodes. This will make low-downtime upgrades smoother,
@@ -126,7 +132,7 @@ cp $GOPATH/bin/evmosd ~/.evmosd/cosmovisor/genesis/bin
 You can now download the "genesis" file for the chain.  It is pre-filled with the entire genesis state and gentxs.
 
 ```sh
-curl https://raw.githubusercontent.com/tharsis/testnets/main/olympus_mons/genesis.json > ~/.evmosd/config/genesis.json
+curl https://raw.githubusercontent.com/tharsis/network/main/genesis.json > ~/.evmosd/config/genesis.json
 ```
 
 We recommend using `sha256sum` to check the hash of the genesis.
