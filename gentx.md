@@ -22,7 +22,7 @@ go version
 # Should return go version go1.17 linux/amd64
 ```
 
-## Instructions (Launch: `2022-02-28T16:00:00Z`)
+## Instructions (Launch: `2022-02-28T18:00:00Z`)
 
 These instructions are written targeting an Ubuntu 20.04 system. Relevant changes to commands should be made depending on the OS/architecture you are running on.
 
