@@ -864,16 +864,6 @@
                 {
                     "@type": "/ethermint.types.v1.EthAccount",
                     "base_account": {
-                        "address": "evmos15fezptqfn3rmxtl4006ze9plealy4w9xq8jtj3",
-                        "pub_key": null,
-                        "account_number": "0",
-                        "sequence": "0"
-                    },
-                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
-                },
-                {
-                    "@type": "/ethermint.types.v1.EthAccount",
-                    "base_account": {
                         "address": "evmos1rq0r53s3wg4854n05tg0hrw5u3jaqlw42ldlq4",
                         "pub_key": null,
                         "account_number": "0",
@@ -1084,6 +1074,16 @@
                 {
                     "@type": "/ethermint.types.v1.EthAccount",
                     "base_account": {
+                        "address": "evmos1hay4kqak5h9zvp0r43y6nggprug4uc2qapwrw0",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
                         "address": "evmos125fkz3mq6qxxpkmphdl3ep92t0d3y969t4yhkl",
                         "pub_key": null,
                         "account_number": "0",
@@ -1184,7 +1184,7 @@
                 {
                     "@type": "/ethermint.types.v1.EthAccount",
                     "base_account": {
-                        "address": "evmos1tuup69wz94u62g9tjuphj3vuvqyh3t00he60ww",
+                        "address": "evmos17pa58qcjqxtuffv9038tl975sne9gte2ywnvyl",
                         "pub_key": null,
                         "account_number": "0",
                         "sequence": "0"
@@ -1214,7 +1214,7 @@
                 {
                     "@type": "/ethermint.types.v1.EthAccount",
                     "base_account": {
-                        "address": "evmos1wjcfz5mhkl2e48w4euqz0724933haqcprlvmh7",
+                        "address": "evmos14jvhzteqe049g90g9kv27ydwypevde034sr4nw",
                         "pub_key": null,
                         "account_number": "0",
                         "sequence": "0"
@@ -1240,6 +1240,36 @@
                         "sequence": "0"
                     },
                     "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos17aplkq60nqqnawztjlxyk0wwtc9l2uv9e6qls2",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1y2cvctj5t78yzfhtjzfvcglyc0xa0jatd9fhgy",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1kwjrhfpkhmrn97rz66d5j5s7wjswf5z054t8fx",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
                 }
             ]
         },
@@ -1257,7 +1287,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1266,7 +1296,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1275,7 +1305,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1284,7 +1314,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1293,7 +1323,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1302,7 +1332,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1311,7 +1341,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1320,7 +1350,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1329,7 +1359,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1338,7 +1368,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1347,7 +1377,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1356,7 +1386,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1365,7 +1395,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1374,7 +1404,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1383,7 +1413,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1392,7 +1422,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1401,7 +1431,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1410,7 +1440,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1419,7 +1449,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1428,7 +1458,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1437,7 +1467,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1446,7 +1476,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1455,7 +1485,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1464,7 +1494,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1473,7 +1503,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1482,7 +1512,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1491,7 +1521,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1500,7 +1530,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1509,7 +1539,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1518,7 +1548,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1527,7 +1557,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1536,7 +1566,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1545,7 +1575,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1554,7 +1584,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1563,7 +1593,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "7.142857142999999e+18"
+                            "amount": "7104795737122560000"
                         }
                     ]
                 },
@@ -1572,7 +1602,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "7.142857142999999e+18"
+                            "amount": "7104795737122560000"
                         }
                     ]
                 },
@@ -1581,7 +1611,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "7.142857142999999e+18"
+                            "amount": "7104795737122560000"
                         }
                     ]
                 },
@@ -1590,7 +1620,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "7.142857142999999e+18"
+                            "amount": "7104795737122560000"
                         }
                     ]
                 },
@@ -1599,7 +1629,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "7.142857142999999e+18"
+                            "amount": "7104795737122560000"
                         }
                     ]
                 },
@@ -1608,7 +1638,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "7.142857142999999e+18"
+                            "amount": "7104795737122560000"
                         }
                     ]
                 },
@@ -1617,7 +1647,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "7.142857142999999e+18"
+                            "amount": "7104795737122560000"
                         }
                     ]
                 },
@@ -1626,7 +1656,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "7.142857142999999e+18"
+                            "amount": "7104795737122560000"
                         }
                     ]
                 },
@@ -1635,7 +1665,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "7.142857142999999e+18"
+                            "amount": "7104795737122560000"
                         }
                     ]
                 },
@@ -1644,7 +1674,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "3.571428571e+18"
+                            "amount": "3552397868561280000"
                         }
                     ]
                 },
@@ -1653,7 +1683,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.607142857e+19"
+                            "amount": "15985790408525800000"
                         }
                     ]
                 },
@@ -1662,7 +1692,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.607142857e+19"
+                            "amount": "15985790408525800000"
                         }
                     ]
                 },
@@ -1671,7 +1701,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.607142857e+19"
+                            "amount": "15985790408525800000"
                         }
                     ]
                 },
@@ -1680,7 +1710,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.607142857e+19"
+                            "amount": "15985790408525800000"
                         }
                     ]
                 },
@@ -1689,7 +1719,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.607142857e+19"
+                            "amount": "15985790408525800000"
                         }
                     ]
                 },
@@ -1698,7 +1728,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.607142857e+19"
+                            "amount": "15985790408525800000"
                         }
                     ]
                 },
@@ -1707,7 +1737,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.607142857e+19"
+                            "amount": "15985790408525800000"
                         }
                     ]
                 },
@@ -1716,7 +1746,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1725,7 +1755,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1734,7 +1764,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1743,7 +1773,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1752,7 +1782,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1761,7 +1791,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
@@ -1770,7 +1800,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1779,7 +1809,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1788,7 +1818,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1797,7 +1827,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1806,7 +1836,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1815,7 +1845,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1824,7 +1854,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1833,7 +1863,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1842,7 +1872,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1851,7 +1881,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1860,7 +1890,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1869,7 +1899,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1878,7 +1908,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1887,7 +1917,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1896,7 +1926,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1905,7 +1935,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1914,7 +1944,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1923,7 +1953,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1932,7 +1962,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1941,7 +1971,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1950,7 +1980,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1959,7 +1989,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1968,7 +1998,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1977,7 +2007,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1986,7 +2016,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -1995,16 +2025,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
-                        }
-                    ]
-                },
-                {
-                    "address": "evmos15fezptqfn3rmxtl4006ze9plealy4w9xq8jtj3",
-                    "coins": [
-                        {
-                            "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2013,7 +2034,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2022,7 +2043,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2031,7 +2052,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2040,7 +2061,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2049,7 +2070,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2058,7 +2079,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2067,7 +2088,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2076,7 +2097,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2085,7 +2106,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2094,7 +2115,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2103,7 +2124,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2112,7 +2133,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2121,7 +2142,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2130,7 +2151,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2139,7 +2160,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2148,7 +2169,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2157,7 +2178,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "3.571428571e+18"
+                            "amount": "3552397868561280000"
                         }
                     ]
                 },
@@ -2166,7 +2187,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "3.571428571e+18"
+                            "amount": "3552397868561280000"
                         }
                     ]
                 },
@@ -2175,7 +2196,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "3.571428571e+18"
+                            "amount": "3552397868561280000"
                         }
                     ]
                 },
@@ -2184,7 +2205,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "3.571428571e+18"
+                            "amount": "3552397868561280000"
                         }
                     ]
                 },
@@ -2193,7 +2214,16 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "3.571428571e+18"
+                            "amount": "3552397868561280000"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1hay4kqak5h9zvp0r43y6nggprug4uc2qapwrw0",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "3552397868561280000"
                         }
                     ]
                 },
@@ -2202,7 +2232,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.785714286e+18"
+                            "amount": "1776198934280640000"
                         }
                     ]
                 },
@@ -2211,7 +2241,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.785714286e+18"
+                            "amount": "1776198934280640000"
                         }
                     ]
                 },
@@ -2220,7 +2250,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.785714286e+18"
+                            "amount": "1776198934280640000"
                         }
                     ]
                 },
@@ -2229,7 +2259,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.785714286e+18"
+                            "amount": "1776198934280640000"
                         }
                     ]
                 },
@@ -2238,7 +2268,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.785714286e+18"
+                            "amount": "1776198934280640000"
                         }
                     ]
                 },
@@ -2247,7 +2277,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.607142857e+19"
+                            "amount": "15985790408525800000"
                         }
                     ]
                 },
@@ -2256,7 +2286,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.607142857e+19"
+                            "amount": "15985790408525800000"
                         }
                     ]
                 },
@@ -2265,7 +2295,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.607142857e+19"
+                            "amount": "15985790408525800000"
                         }
                     ]
                 },
@@ -2274,7 +2304,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.607142857e+19"
+                            "amount": "15985790408525800000"
                         }
                     ]
                 },
@@ -2283,16 +2313,16 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "1.071428571e+19"
+                            "amount": "10657193605683800000"
                         }
                     ]
                 },
                 {
-                    "address": "evmos1tuup69wz94u62g9tjuphj3vuvqyh3t00he60ww",
+                    "address": "evmos17pa58qcjqxtuffv9038tl975sne9gte2ywnvyl",
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2301,7 +2331,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2310,16 +2340,16 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
                 {
-                    "address": "evmos1wjcfz5mhkl2e48w4euqz0724933haqcprlvmh7",
+                    "address": "evmos14jvhzteqe049g90g9kv27ydwypevde034sr4nw",
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2328,7 +2358,7 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
                         }
                     ]
                 },
@@ -2337,7 +2367,34 @@
                     "coins": [
                         {
                             "denom": "aevmos",
-                            "amount": "5.357142857000001e+18"
+                            "amount": "5328596802841920000"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos17aplkq60nqqnawztjlxyk0wwtc9l2uv9e6qls2",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5328596802841920000"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1y2cvctj5t78yzfhtjzfvcglyc0xa0jatd9fhgy",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5328596802841920000"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1kwjrhfpkhmrn97rz66d5j5s7wjswf5z054t8fx",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5328596802841920000"
                         }
                     ]
                 }
@@ -2345,7 +2402,7 @@
             "supply": [
                 {
                     "denom": "aevmos",
-                    "amount": "9.767857140870004e+20"
+                    "amount": "982238010657192720000"
                 }
             ],
             "denom_metadata": []
@@ -2480,7 +2537,7 @@
                 "max_deposit_period": "1209600s"
             },
             "voting_params": {
-                "voting_period": "259200"
+                "voting_period": "259200s"
             },
             "tally_params": {
                 "quorum": "0.334000000000000000",
