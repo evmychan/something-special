@@ -31,6 +31,15 @@ else
     denomquery=$(jq -r '.body.messages[0].value.denom' "$GENTX_FILE")
     amountquery=$(jq -r '.body.messages[0].value.amount' "$GENTX_FILE")
 
+function amount {
+   AMOUNT="$amountquery" MAXAMOUNT="$MAXBOND" python - <<END
+   import os
+   amount = int(os.environ['AMOUNT'])
+   maxamount = int(os.environ['MAXAMOUNT'])
+   print( amount > maxamount)
+END
+}
+
     # only allow $DENOM tokens to be bonded
     if [ "$denomquery" != $DENOM ]; then
         echo "incorrect denomination on $GENTX_FILE" | tee -a bad_gentxs.out
@@ -38,8 +47,8 @@ else
     fi
 
     # limit the amount that can be bonded
-    if [[ $amountquery -gt $MAXBOND ]]; then
-        echo "bonded too much: $amountquery > $MAXBOND on $GENTX_FILE" | tee -a bad_gentxs.out
+    if [ $(echo $(amount)) == 'true' ]; then
+        echo "Error bonded too much, your amount is $amountquery" | tee -a bad_gentxs.out
         exit 1
     fi
 
