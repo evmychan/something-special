@@ -1,7 +1,7 @@
 #!/bin/bash
 EVMOS_HOME="/tmp/evmosd$(date +%s)"
 RANDOM_KEY="randomevmosvalidatorkey"
-MAXBOND="16071428570000000000" # 16.0714 EVMOS
+MAXBOND="15901060070671400000" # 15.90106 EVMOS
 GENACC_BALANCE="17000000000000000000" # 17 EVMOS
 
 # NOTE: This script is designed to run in CI.
