@@ -2,7 +2,7 @@
 
 **Genesis Validators**
 
-Follow the instructions on the ["Running as a genesis validator"](https://github.com/tharsis/testnets/blob/main/olympus_mons/run.md) guide.
+Follow the instructions on the ["Running as a genesis validator"](./run.md) guide.
 
 Be sure to read through the [FAQs](https://evmos.dev/guides/validators/faq.html) and understand how to [Optimize your Disk Usage](https://evmos.dev/guides/validators/disk_optimization.html#disk-usage-optimization).
 
@@ -20,4 +20,4 @@ _The genesis file needs more time in the oven, come back later_
 
 ### Genesis Launch
 
-February 28, 2022 16:00 UTC.
+February 28, 2022 18:00 UTC.
