@@ -8,15 +8,15 @@ Be sure to read through the [FAQs](https://evmos.dev/guides/validators/faq.html)
 
 ## Genesis File
 
-_The genesis file needs more time in the oven, come back later_
+_The genesis file needs more time in the oven, come back later._
 
 ## Details
 
 - Network Chain ID: `evmos_9001-1`
 - EIP155 Chain ID: `9001`
 - `evmosd` version: [`v1.0.x`](https://github.com/tharsis/evmos/releases) (not ready yet)
-- EVM explorer: [evm.evmos.org](https://evm.evmos.org)
-- Cosmos explorer: [explorer.evmos.org](https://explorer.evmos.org)
+- EVM explorer: [evm.evmos.org](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+- Cosmos explorer: [explorer.evmos.org](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
 ### Genesis Launch
 
