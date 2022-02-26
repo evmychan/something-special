@@ -2,7 +2,7 @@
 
 **Genesis Validators**
 
-Follow the instructions on the ["Running as a genesis validator"](./run.md) guide.
+Follow the instructions on the ["Submitting your GenTx for the Evmos Mainnet"](./gentx.md) guide.
 
 Be sure to read through the [FAQs](https://evmos.dev/guides/validators/faq.html) and understand how to [Optimize your Disk Usage](https://evmos.dev/guides/validators/disk_optimization.html#disk-usage-optimization).
 
