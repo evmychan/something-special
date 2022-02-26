@@ -47,7 +47,7 @@ END
     fi
 
     # limit the amount that can be bonded
-    if [ $(echo $(amount)) == 'true' ]; then
+    if [ $(echo $(amount)) == 'True' ]; then
         echo "Error bonded too much, your amount is $amountquery" | tee -a bad_gentxs.out
         exit 1
     fi
