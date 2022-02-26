@@ -20,6 +20,11 @@ git checkout tags/"$BINARY_VERSION" > /dev/null 2>&1
 make build > /dev/null 2>&1
 chmod +x "$DAEMON"
 
+# Check if gentx is a json file.
+if [ "$GENTX_FILE" != "*.json" ]; then
+        echo "$GENTX_FILE" is not a json file | tee -a bad_gentxs.out
+        exit 1
+    fi
 # Get the diff between main and commit
 echo "Diff is on $GENTX_FILE"
 LEN_GENTX=${#GENTX_FILE}
