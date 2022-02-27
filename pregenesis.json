@@ -564,7 +564,7 @@
                 {
                     "@type": "/ethermint.types.v1.EthAccount",
                     "base_account": {
-                        "address": "evmos1jxv0u20scum4trha72c7ltfgfqef6nscst9pw8",
+                        "address": "evmos1a22spreqspsh9s3v67ctsuzaf9n4kalllspvr5",
                         "pub_key": null,
                         "account_number": "0",
                         "sequence": "0"
@@ -1810,7 +1810,7 @@
                     ]
                 },
                 {
-                    "address": "evmos1jxv0u20scum4trha72c7ltfgfqef6nscst9pw8",
+                    "address": "evmos1a22spreqspsh9s3v67ctsuzaf9n4kalllspvr5",
                     "coins": [
                         {
                             "denom": "aevmos",
