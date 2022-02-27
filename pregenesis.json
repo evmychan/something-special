@@ -434,7 +434,7 @@
                 {
                     "@type": "/ethermint.types.v1.EthAccount",
                     "base_account": {
-                        "address": "evmos1s95dwnw7vuks688tnzuue0hl6gsczmzjj83yyl",
+                        "address": "evmos1sp9frqwep52chwavv3xd776myy8gyyvkp6n53z",
                         "pub_key": null,
                         "account_number": "0",
                         "sequence": "0"
@@ -1184,7 +1184,7 @@
                 {
                     "@type": "/ethermint.types.v1.EthAccount",
                     "base_account": {
-                        "address": "evmos17pa58qcjqxtuffv9038tl975sne9gte2ywnvyl",
+                        "address": "evmos1tuup69wz94u62g9tjuphj3vuvqyh3t00he60ww",
                         "pub_key": null,
                         "account_number": "0",
                         "sequence": "0"
@@ -1224,7 +1224,7 @@
                 {
                     "@type": "/ethermint.types.v1.EthAccount",
                     "base_account": {
-                        "address": "evmos16cl72dyyaa8n4mx247z49sj26m099jpsqyjylj",
+                        "address": "evmos1jhe4gfgl7wv3s99h3d9tz4g833j8265enkas9n",
                         "pub_key": null,
                         "account_number": "0",
                         "sequence": "0"
@@ -1693,7 +1693,7 @@
                     ]
                 },
                 {
-                    "address": "evmos1s95dwnw7vuks688tnzuue0hl6gsczmzjj83yyl",
+                    "address": "evmos1sp9frqwep52chwavv3xd776myy8gyyvkp6n53z",
                     "coins": [
                         {
                             "denom": "aevmos",
@@ -2368,7 +2368,7 @@
                     ]
                 },
                 {
-                    "address": "evmos17pa58qcjqxtuffv9038tl975sne9gte2ywnvyl",
+                    "address": "evmos1tuup69wz94u62g9tjuphj3vuvqyh3t00he60ww",
                     "coins": [
                         {
                             "denom": "aevmos",
@@ -2404,7 +2404,7 @@
                     ]
                 },
                 {
-                    "address": "evmos16cl72dyyaa8n4mx247z49sj26m099jpsqyjylj",
+                    "address": "evmos1jhe4gfgl7wv3s99h3d9tz4g833j8265enkas9n",
                     "coins": [
                         {
                             "denom": "aevmos",
