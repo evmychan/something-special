@@ -1,0 +1,61 @@
+{
+  "body": {
+    "messages": [
+      {
+        "@type": "/cosmos.staking.v1beta1.MsgCreateValidator",
+        "description": {
+          "moniker": "☉ Mercury",
+          "identity": "48CE867E6AB5ED72",
+          "website": "https://mercury-nodes.net",
+          "security_contact": "https://t.me/MercuryPlanetes",
+          "details": "All planetary stake"
+        },
+        "commission": {
+          "rate": "0.050000000000000000",
+          "max_rate": "0.100000000000000000",
+          "max_change_rate": "0.050000000000000000"
+        },
+        "min_self_delegation": "1",
+        "delegator_address": "evmos1jkn3w5rm7lp0pn07qxc4d3rxdxre7h23t9t6dc",
+        "validator_address": "evmosvaloper1jkn3w5rm7lp0pn07qxc4d3rxdxre7h23xty2v9",
+        "pubkey": {
+          "@type": "/cosmos.crypto.ed25519.PubKey",
+          "key": "eBODWG6PChW5tBbQL7VO0nAcLp69Hh+WlH8M73xz2B0="
+        },
+        "value": {
+          "denom": "aphoton",
+          "amount": "10600706713780900000"
+        }
+      }
+    ],
+    "memo": "bc2279e352cfecf3381c548d4db7d1df0bca24e1@157.90.36.33:26656",
+    "timeout_height": "0",
+    "extension_options": [],
+    "non_critical_extension_options": []
+  },
+  "auth_info": {
+    "signer_infos": [
+      {
+        "public_key": {
+          "@type": "/ethermint.crypto.v1.ethsecp256k1.PubKey",
+          "key": "Ahg1L4mkHux1lmcgqK0Q45j6o6r3EcsMoO+YV/vFdjnV"
+        },
+        "mode_info": {
+          "single": {
+            "mode": "SIGN_MODE_DIRECT"
+          }
+        },
+        "sequence": "0"
+      }
+    ],
+    "fee": {
+      "amount": [],
+      "gas_limit": "200000",
+      "payer": "",
+      "granter": ""
+    }
+  },
+  "signatures": [
+    "BXuOTh4tlMFeWkXcyLL1BFl91Yc39E7f6AgSj2QsqpV/8Kjiwcqo7birrcmoNxaFGygXHRTXQhCB/FNpQ/XV1gE="
+  ]
+}
