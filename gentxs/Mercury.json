@@ -23,7 +23,7 @@
           "key": "eBODWG6PChW5tBbQL7VO0nAcLp69Hh+WlH8M73xz2B0="
         },
         "value": {
-          "denom": "aphoton",
+          "denom": "aevmos",
           "amount": "10600706713780900000"
         }
       }
@@ -56,6 +56,6 @@
     }
   },
   "signatures": [
-    "BXuOTh4tlMFeWkXcyLL1BFl91Yc39E7f6AgSj2QsqpV/8Kjiwcqo7birrcmoNxaFGygXHRTXQhCB/FNpQ/XV1gE="
+    "Aecv/CGb+CGJGEv02WklyQTTUA2mBtyEX/spptx0IUwTj5BODTvXWDZA09rwCDFrNICAIFZip1FJOzf6xY1DxQE="
   ]
 }
