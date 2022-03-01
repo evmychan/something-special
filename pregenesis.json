@@ -534,7 +534,7 @@
                 {
                     "@type": "/ethermint.types.v1.EthAccount",
                     "base_account": {
-                        "address": "evmos1xwazl8ftks4gn00y5x3c47auquc62ssu82h5uc",
+                        "address": "evmos17vze0tk7q7gwpd6jt69p4m5svrty40ywgnghcv",
                         "pub_key": null,
                         "account_number": "0",
                         "sequence": "0"
@@ -1104,7 +1104,7 @@
                 {
                     "@type": "/ethermint.types.v1.EthAccount",
                     "base_account": {
-                        "address": "evmos106y6thy7gphzrsqq443hl69vfdvntgz23pcue4",
+                        "address": "evmos18zt355ccyxd3kj23mz5hdz00qqn5lk5klaaw5x",
                         "pub_key": null,
                         "account_number": "0",
                         "sequence": "0"
@@ -1783,7 +1783,7 @@
                     ]
                 },
                 {
-                    "address": "evmos1xwazl8ftks4gn00y5x3c47auquc62ssu82h5uc",
+                    "address": "evmos17vze0tk7q7gwpd6jt69p4m5svrty40ywgnghcv",
                     "coins": [
                         {
                             "denom": "aevmos",
@@ -2296,7 +2296,7 @@
                     ]
                 },
                 {
-                    "address": "evmos106y6thy7gphzrsqq443hl69vfdvntgz23pcue4",
+                    "address": "evmos18zt355ccyxd3kj23mz5hdz00qqn5lk5klaaw5x",
                     "coins": [
                         {
                             "denom": "aevmos",
