@@ -34,8 +34,8 @@ the OS/architecture you are running on.
 
 ### Update `evmosd` to `v1.0.0`
 
-For the gentx creation, we will use the [v1.0.0-beta1](https://github.com/tharsis/evmos/releases) release of
-the [Evmos codebase](https://github.com/tharsis/evmos).
+~~For the gentx creation, we will use the [v1.0.0-beta1](https://github.com/tharsis/evmos/releases) release of
+the [Evmos codebase](https://github.com/tharsis/evmos).~~
 
 For launch, please update to the `v1.0.0` tag and rebuild your binaries.
 
