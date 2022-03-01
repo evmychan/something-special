@@ -68,7 +68,7 @@ These instructions are written targeting an Ubuntu 20.04 system. Relevant change
 5. Create the gentx
 
    ```bash
-   evmosd gentx <your key name> <correct balance in genesis file>aevmos \
+   evmosd gentx <your key name> <correct balance in genesis_validators.csv>aevmos \
      --chain-id=evmos_9001-1 \
      --moniker=<moniker> \
      --details="My moniker description" \
