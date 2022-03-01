@@ -1320,6 +1320,16 @@
                         "sequence": "0"
                     },
                     "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
+                },
+                {
+                    "@type": "/ethermint.types.v1.EthAccount",
+                    "base_account": {
+                        "address": "evmos1nr27ps2py59fadgyws7cdme40nxy66z0wcldl7",
+                        "pub_key": null,
+                        "account_number": "0",
+                        "sequence": "0"
+                    },
+                    "code_hash": "0xc5d2460186f7233c927e7db2dcc703c0e500b653ca82273b7bfad8045d85a470"
                 }
             ]
         },
@@ -2486,6 +2496,15 @@
                 },
                 {
                     "address": "evmos16ahga2u3q6ueer5me26g7ws2ckjdrx4q4xzj0w",
+                    "coins": [
+                        {
+                            "denom": "aevmos",
+                            "amount": "5300353356890460000"
+                        }
+                    ]
+                },
+                {
+                    "address": "evmos1nr27ps2py59fadgyws7cdme40nxy66z0wcldl7",
                     "coins": [
                         {
                             "denom": "aevmos",
