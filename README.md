@@ -20,4 +20,4 @@ _The genesis file needs more time in the oven, come back later._
 
 ### Genesis Launch
 
-February 28, 2022 18:00 UTC.
+March 2, 2022 18:00 UTC.
