@@ -18,6 +18,9 @@ jobs:
       - uses: actions/setup-go@v2
         with:
           go-version: '^1.17'
+      - uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
       - run: go version
       - name: Install dependencies
         run: sudo apt install -y boxes moreutils coreutils
@@ -35,7 +38,7 @@ jobs:
           CHAIN_ID: evmos_9001-1
           DENOM: aevmos
           GH_URL: https://github.com/tharsis/evmos
-          BINARY_VERSION: v1.0.0-beta1
+          BINARY_VERSION: v1.0.0
           PROJECT_DIR: ${{ github.workspace }}
           GENTX_DIR: ./gentxs
           GENTX_FILE: ${{ github.workspace }}/${{ steps.changes.outputs.changes }}
