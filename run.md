@@ -11,7 +11,7 @@ to be a part of the ecosystem in the future.
 
 ## For selected validators
 
-**Genesis Time is 18:00 UTC on Feb 28, 2022.**
+**Genesis Time is 18:00 UTC on March 2, 2022.**
 
 Please have your validator up and ready by this time, and be available for further instructions if necessary
 at that time.
@@ -32,10 +32,10 @@ for their own custom setups as needed (i.e. sentry nodes, tmkms, etc).
 These examples are written targeting an Ubuntu 20.04 system. Relevant changes to commands should be made depending on
 the OS/architecture you are running on.
 
-### Update `evmosd` to `v1.0.0-beta1`
+### Update `evmosd` to `v1.0.0`
 
-For the gentx creation, we will use the [v1.0.0-beta1](https://github.com/tharsis/evmos/releases) release of
-the [Evmos codebase](https://github.com/tharsis/evmos).
+~~For the gentx creation, we will use the [v1.0.0-beta1](https://github.com/tharsis/evmos/releases) release of
+the [Evmos codebase](https://github.com/tharsis/evmos).~~
 
 For launch, please update to the `v1.0.0` tag and rebuild your binaries.
 
@@ -56,8 +56,8 @@ evmosd version --long
 
 name: evmos
 server_name: evmosd
-version: v1.0.0-beta1
-commit: 2c0b38566058df48ea5e7349e0b202bf743be90f
+version: v1.0.0
+commit: 81abb9283b27c56ea6869720ce519f01fd7c455d
 build_tags: netgo,ledger
 go: go version go1.17 darwin/amd64
 ```
@@ -72,12 +72,6 @@ have to manually pass in the chain-id flag for every CLI command.
 ```sh
 evmosd config chain-id evmos_9001-1
 ```
-
----
-
-# IGNORE EVERYTHING BELOW THIS LINE FOR NOW
-# COME BACK AFTER THE GENESIS FILE IS READY
-
 
 ### Install and setup Cosmovisor
 
