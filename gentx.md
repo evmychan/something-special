@@ -22,7 +22,7 @@ go version
 # Should return go version go1.17 linux/amd64
 ```
 
-## Instructions (Launch: `2022-02-28T18:00:00Z`)
+## Instructions (Launch: `2022-03-02T18:00:00Z`)
 
 These instructions are written targeting an Ubuntu 20.04 system. Relevant changes to commands should be made depending on the OS/architecture you are running on.
 
@@ -30,11 +30,11 @@ These instructions are written targeting an Ubuntu 20.04 system. Relevant change
 
    ```bash
    git clone https://github.com/tharsis/evmos
-   cd evmos && git checkout tags/v1.0.0-beta1
+   cd evmos && git checkout tags/v1.1.0
    make install
    ```
 
-   Make sure to checkout to the [`v1.0.0-beta1`](https://github.com/tharsis/evmos/releases) tag.
+   Make sure to checkout to the [`v1.1.0`](https://github.com/tharsis/evmos/releases/tag/v1.1.0) tag.
 
    Verify that everything is OK. If you get something *like* the following, you've successfully installed Evmos on your system.
 
@@ -43,8 +43,8 @@ These instructions are written targeting an Ubuntu 20.04 system. Relevant change
 
    name: evmos
    server_name: evmosd
-   version: 1.0.0-beta1
-   commit: 2c0b38566058df48ea5e7349e0b202bf743be90f
+   version: 1.1.0
+   commit: 0786f86c367f4065cb6eb907b81128beafb93ea5
    build_tags: netgo,ledger
    go: go version go1.17 darwin/amd64
    ```
@@ -68,7 +68,7 @@ These instructions are written targeting an Ubuntu 20.04 system. Relevant change
 5. Create the gentx
 
    ```bash
-   evmosd gentx <your key name> <correct balance in genesis file>aevmos \
+   evmosd gentx <your key name> <correct balance in genesis_validators.csv>aevmos \
      --chain-id=evmos_9001-1 \
      --moniker=<moniker> \
      --details="My moniker description" \
