@@ -14,7 +14,7 @@ _The genesis file needs more time in the oven, come back later._
 
 - Network Chain ID: `evmos_9001-1`
 - EIP155 Chain ID: `9001`
-- `evmosd` version: [`v1.0.0`](https://github.com/tharsis/evmos/releases/tag/v1.0.0)
+- `evmosd` version: [`v1.1.0`](https://github.com/tharsis/evmos/releases/tag/v1.1.0)
 - EVM explorer: [evm.evmos.org](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 - Cosmos explorer: [explorer.evmos.org](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
 
