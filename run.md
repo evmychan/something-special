@@ -32,17 +32,17 @@ for their own custom setups as needed (i.e. sentry nodes, tmkms, etc).
 These examples are written targeting an Ubuntu 20.04 system. Relevant changes to commands should be made depending on
 the OS/architecture you are running on.
 
-### Update `evmosd` to `v1.0.0`
+### Update `evmosd` to `v1.1.0`
 
 ~~For the gentx creation, we will use the [v1.0.0-beta1](https://github.com/tharsis/evmos/releases) release of
 the [Evmos codebase](https://github.com/tharsis/evmos).~~
 
-For launch, please update to the `v1.0.0` tag and rebuild your binaries.
+For launch, please update to the `v1.1.0` tag and rebuild your binaries.
 
 ```sh
 git clone https://github.com/tharsis/evmos
 cd evmos
-git checkout tags/v1.0.0
+git checkout tags/v1.1.0
 
 make install
 ```
@@ -56,8 +56,8 @@ evmosd version --long
 
 name: evmos
 server_name: evmosd
-version: v1.0.0
-commit: 81abb9283b27c56ea6869720ce519f01fd7c455d
+version: v1.1.0
+commit: 0786f86c367f4065cb6eb907b81128beafb93ea5
 build_tags: netgo,ledger
 go: go version go1.17 darwin/amd64
 ```
