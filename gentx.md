@@ -30,11 +30,11 @@ These instructions are written targeting an Ubuntu 20.04 system. Relevant change
 
    ```bash
    git clone https://github.com/tharsis/evmos
-   cd evmos && git checkout tags/v1.0.0-beta1
+   cd evmos && git checkout tags/v1.1.0
    make install
    ```
 
-   Make sure to checkout to the [`v1.0.0`](https://github.com/tharsis/evmos/releases/tag/v1.0.0) tag.
+   Make sure to checkout to the [`v1.1.0`](https://github.com/tharsis/evmos/releases/tag/v1.1.0) tag.
 
    Verify that everything is OK. If you get something *like* the following, you've successfully installed Evmos on your system.
 
@@ -43,8 +43,8 @@ These instructions are written targeting an Ubuntu 20.04 system. Relevant change
 
    name: evmos
    server_name: evmosd
-   version: 1.0.0
-   commit: 81abb9283b27c56ea6869720ce519f01fd7c455d
+   version: 1.1.0
+   commit: 0786f86c367f4065cb6eb907b81128beafb93ea5
    build_tags: netgo,ledger
    go: go version go1.17 darwin/amd64
    ```
